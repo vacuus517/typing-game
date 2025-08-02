@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+        <select>
+            <option value="oson">Oson</option>
+            <option value="qiyin">Qiyin</option>
+            <option value="murakkab">Murakkab</option>
+        </select>
+        <h1 class="title"></h1>
+        <input type="text" class="input" autocomplete="off" autofocus placeholder="So'z yozing...">
+
+        <div class="bottom">
+            <div class="time">
+                <span>00</span>:
+                <span>00</span>
+            </div>
+
+            <div class="score-wrapper">
+                <span>Natija:</span>
+                <span class="score">0</span>
+            </div>
+        </div>
+    </div>
+
+        <div class="overlay">
+        <div class="modal">
+            <h2 class="modal-title">
+                <span>Sizning Natijangiz:</span>
+                <span class="modal-score">0</span>
+            </h2>
+            <p>
+                <span>Rekord:</span>
+                <span class="modal-record">0</span>
+            </p>
+            <button class="modal-btn">Qaytadan boshlash</button>
+        </div>
+    </div>
+
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

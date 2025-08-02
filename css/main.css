@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+.title{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+body {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-style: 20px;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #123456;
+}
+
+input{
+    background-color: transparent;
+    border: 4px solid #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+    outline: none;
+}
+
+input.error{
+    border-color: red;
+}
+
+input.error::placeholder{
+    color: red;
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: #0009;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+
+.score-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0007;
+    display: none;
+}
+
+.modal {
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    padding: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 0 10px rgba(212, 208, 208, 0.925);
+    color: #123456;
+}
+
+.modal button {
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5b6187;
+    color: #fff;
+    cursor: pointer;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+select {
+    width: 100%;
+    max-width: 120px;
+    border: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+select{
+    background-color: #fff;
+    border: 4px solid #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 6px;
+    border-radius: 4px;
+    color: #123456;
+    outline: none;
+}
